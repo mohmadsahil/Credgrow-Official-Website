@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  /* background-color: red; */
+  padding: 10px 20px;
+}
+
+.mainLogoDiv {
+  height: 50px;
+  width: auto;
+}
+
+.mainLogo {
+  height: 100%;
+  width: auto;
+  border-radius: 5px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.nav_item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+/* .navLinksItems{
+  background-color: yellow;
+} */
+
+.navLinksItems a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.signInButton, .signUpButton {
+  padding: 5px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a0b5f;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.hamburgerMenu {
+  display: none;
+  font-size: 30px;
+  color: #0a0b5f;
+  cursor: pointer;
+}
+
+/* *******************RESPONSIVE CSS**************************** */
+
+@media screen and (max-width: 750px) {
+  .navLinks {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      background-color: skyblue;
+  }
+  .navLinksItems a, .signInButton, .signUpButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .nav_item {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .navLinksItems a, .signInButton, .signUpButton {
+      margin: 10px 0;
+  }
+
+  .mobile-menu-link {
+      display: flex;
+  }
+
+  .hamburgerMenu {
+      display: block;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .hamburgerMenu {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navLinksItems a, .signInButton, .signUpButton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      padding: 10px;
+  }
+}

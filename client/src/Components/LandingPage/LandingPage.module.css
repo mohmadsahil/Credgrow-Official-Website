@@ -1,0 +1,84 @@
+.mainLandingPage{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.leftLandingPageContent{
+    margin-top: 45px;
+}
+.leftLandingPage{
+    width: 50%;
+    background-image: url('./backgroungImg.png'); /* Correct path */
+    background-size: cover;
+}
+
+/* .leftLandingPageBG{
+    height: 100%;
+    width: 100%;
+    background-image: url(/client/public/Images/backgroungImg.png);
+} */
+
+.leftLandingPageText{
+    /* background-color:bisque; */
+    margin-left: 20px;
+    font-size: 25px;
+    /* background-image: url(public/Images/backgroungImg.png); */
+}
+.leftLandingPageText p{
+    margin-top: 15px;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.text1{
+    color: #0a0b5f;
+}
+.text2{
+    color: #A00015;
+}
+.leftLandingPageBtn
+{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.leftLandingPageMainBtn{
+    background-color:#A00015;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.HappyCustomerRecord p{
+    margin-bottom: 5px;
+}
+.leftLandingPageRecord{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+-webkit-box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+-moz-box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+}
+.rightLandingPage{
+    width: 50%;
+    height: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.rightLandingPageImg{
+    height: 100%;
+    width: 85%;
+    /* background-color: yellow; */
+}
