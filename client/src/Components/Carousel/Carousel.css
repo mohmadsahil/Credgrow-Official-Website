@@ -1,0 +1,30 @@
+.mainCarouseldiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: 3% 10% 0 10%;
+    background-color:  #0a0b5f;
+    border-radius: 30px;
+    box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+-webkit-box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+-moz-box-shadow: 20px 22px 50px 14px rgba(191,191,191,0.75);
+}
+.carouselText{
+    margin-top: 3%;
+    color: #a00015;
+    font-size: 20px;
+    text-align: center;
+}
+.mainCarousel{
+    background-color: #0a0b5f;
+    width: 80%;
+}
+.mainCarouselImg{
+    height: 50%;
+    width: 50%;
+    border-radius: 40px;
+    padding: 30px;
+}

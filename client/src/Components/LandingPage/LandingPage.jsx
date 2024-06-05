@@ -3,11 +3,6 @@ import styles from "../LandingPage/LandingPage.module.css";
 import CountUp from "react-countup";
 
 export const LandingPage = () => {
-    
-    // const backgroundStyle = {
-    //     backgroundImage: `url('/Images/backgroundImg.png')`,
-    // }
-
   return (
     <div>
       <div className={styles.mainLandingPage}>
