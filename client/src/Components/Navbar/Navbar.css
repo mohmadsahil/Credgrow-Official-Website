@@ -7,7 +7,7 @@
 .mainNav {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   background-color: white;
   /* background-color: red; */
@@ -35,11 +35,6 @@
   list-style: none;
   align-items: center;
 }
-
-/* .navLinksItems{
-  background-color: yellow;
-} */
-
 .navLinksItems a {
   text-decoration: none;
   color: black;
@@ -67,16 +62,41 @@
 
 /* *******************RESPONSIVE CSS**************************** */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px){
+  .navLinksItems a , .signInButton, .signUpButton{
+    font-size: 14px;
+    margin: 0px 10px 0px 10px;
+  }
+  .mainLogoDiv {
+    height: 40px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .navLinksItems a , .signInButton, .signUpButton{
+    font-size: 12px;
+    margin: 0px 8px 0px 8px;
+  }
+  .mainLogoDiv {
+    height: 30px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 750px) { 
+  
   .navLinks {
+      width: 100%;
       display: none;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       width: 100%;
       text-align: center;
-      background-color: skyblue;
+      background-color: white;
   }
-  .navLinksItems a, .signInButton, .signUpButton {
+  .navLinksItems, .signInButton, .signUpButton {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,6 +121,7 @@
   .hamburgerMenu {
       display: block;
   }
+  
 }
 
 @media screen and (min-width: 751px) {
