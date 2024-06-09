@@ -1,0 +1,188 @@
+.CardFeaturesMainText{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    color: #0a0b5f;
+}
+.mainCardFeatures{
+    height: auto;
+    width: 100%;
+}
+
+.CardFeatures{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.CardFeaturesImg{
+    height: 25%;
+    width: 25%;
+}
+.CardFeaturesImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.CardFeaturesDiv{
+    background-color:aliceblue;
+    height: auto;
+    width: 22%;
+    margin: 15px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px gray;
+}
+.CardFeaturesText h1{
+    text-align: center;
+    font-size: 30px;
+}
+.CardFeaturesText p{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+/* *************RESPONSIVE****************** */
+
+@media screen and (max-width:1200px){
+    .CardFeaturesMainText{
+        font-size: 18px;
+    }
+    .CardFeaturesText h1{
+        font-size: 25px;
+    }
+    .CardFeaturesText p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    .CardFeaturesImg{
+        height: 23%;
+        width: 23%;
+    }
+    .CardFeaturesDiv{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .CardFeaturesMainText{
+        font-size: 18px;
+    }
+    .CardFeaturesText h1{
+        font-size: 23px;
+    }
+    .CardFeaturesText p{
+        font-size: 12px;
+        margin: 9px;
+    }
+    .CardFeaturesImg{
+        height: 21%;
+        width: 21%;
+    }
+    .CardFeaturesDiv{
+        width: 20%;
+    }
+}
+@media screen and (max-width:1000px){
+    .CardFeaturesMainText{
+        font-size: 18px;
+    }
+    .CardFeaturesText h1{
+        font-size: 20px;
+    }
+    .CardFeaturesText p{
+        font-size: 10px;
+        margin: 8px;
+    }
+    .CardFeaturesImg{
+        height: 20%;
+        width: 20%;
+    }
+    .CardFeaturesDiv{
+        width: 22%;
+    }
+}
+@media screen and (max-width:900px){
+    .CardFeaturesText h1{
+        font-size: 25px;
+    }
+    .CardFeaturesText p{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .CardFeaturesImg{
+        height: 18%;
+        width: 18%;
+    }
+    .CardFeaturesDiv{
+        width: 35%;
+    }
+}
+@media screen and (max-width:650px){
+    .CardFeaturesMainText{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 12px;
+    }
+    .CardFeaturesText h1{
+        font-size: 22px;
+    }
+    .CardFeaturesText p{
+        font-size: 12px;
+        margin: 10px;
+    }
+    .CardFeaturesImg{
+        height: 18%;
+        width: 18%;
+    }
+    .CardFeaturesDiv{
+        width: 35%;
+    }
+}
+@media screen and (max-width:550px){
+    .CardFeaturesMainText{
+        font-size: 10px;
+    }
+    .CardFeaturesText h1{
+        font-size: 18px;
+    }
+    .CardFeaturesText p{
+        font-size: 9px;
+        margin: 8px;
+    }
+    .CardFeaturesImg{
+        height: 25%;
+        width: 25%;
+    }
+    .CardFeaturesDiv{
+        width: 35%;
+    }
+}
+@media screen and (max-width:450px){
+    .CardFeaturesMainText{
+        margin-top: 12%;
+        margin-bottom: 3%;
+        font-size: 7px;
+    }
+    .CardFeaturesText h1{
+        font-size: 14px;
+    }
+    .CardFeaturesText p{
+        font-size: 6px;
+        margin: 8px;
+    }
+    .CardFeaturesImg{
+        height: 25%;
+        width: 25%;
+    }
+    .CardFeaturesDiv{
+        width: 35%;
+    }
+}

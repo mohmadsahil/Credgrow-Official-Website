@@ -1,0 +1,96 @@
+.mainContactUsForm{
+    background-color: red;
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftContactUsForm{
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.emailAndNumber{
+    display: flex;
+}
+.formName input{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1.5px solid #0A0B5F;
+    /* background-color: brown; */
+}
+.formName p{
+    margin-left: 5px;
+}
+.formName{
+    margin: 20px;
+    /* background-color: blueviolet; */
+}
+.formEmail{
+    margin: 40px 20px 40px 20px;
+    width: 45%;
+    /* background-color:cadetblue; */
+}
+.formEmail input{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1.5px solid #0A0B5F;
+    /* background-color: green; */
+}
+.formEmail p{
+    margin-left: 5px;
+}
+.formMessage{
+    margin: 20px;
+}
+.formMessage p{
+    margin-left: 5px;
+}
+.formMessage textarea{
+    resize: none;
+    height: 150px;
+    width: 100%;
+    padding: 5px;
+    /* background-color: red; */
+    border-radius: 8px;
+    border: 1.5px solid #0A0B5F;
+}
+.rightContactUsForm{
+    background-color: bisque;
+    height: auto;
+    width: 50%;
+}
+.msgBtn{
+    margin-left: 20px;
+    /* background-color: yellow; */
+}
+.mainMsgBtn{
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#a00015;
+    cursor: pointer;
+    border: none;
+    padding: 10px 50px 10px 50px;
+}
+.contactUsText{
+    display: flex;
+    gap:  10px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.contactUsTextSec{
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+}

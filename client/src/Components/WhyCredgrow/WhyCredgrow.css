@@ -1,0 +1,145 @@
+.whyChooseText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.hassleFreeProcess{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+}
+.whyChooseImg{
+    height: auto;
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whyChooseImgFirst{
+    height: auto;
+    width: 70%;
+}
+.hassleFreeProcessText{
+    height: auto;
+    width: 50%;
+    padding:0px 50px 0px 20px;
+}
+.hassleFreeProcessText h1{
+    font-size: 35px;
+    font-weight: 400;
+    color: #A00015;
+}
+.hassleFreeProcessText p{
+    font-size: 20px;
+    margin-top: 3%;
+    color: #0A0B5F;
+}
+.excitingRewards{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* **************************RESPONSIVE CSS**************** */
+
+@media screen and (max-width : 1100px){
+    .hassleFreeProcessText h1{
+        font-size: 32px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 18px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 1000px){
+    .hassleFreeProcessText h1{
+        font-size: 30px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 16px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 900px){
+    .whyChooseText{
+        font-size: 18px;
+    }
+    .hassleFreeProcessText h1{
+        font-size: 28px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 800px){
+    .whyChooseText{
+        font-size: 16px;
+    }
+    .hassleFreeProcessText h1{
+        font-size: 25px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 12px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 700px){
+    .whyChooseText{
+        font-size: 14px;
+    }
+    .hassleFreeProcessText h1{
+        font-size: 22px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 11px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 600px){
+    .whyChooseText{
+        font-size: 12px;
+    }
+    .hassleFreeProcessText h1{
+        font-size: 20px;
+    }
+    .hassleFreeProcessText p{
+        font-size: 10px;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width : 650px){
+    .hassleFreeProcess{
+        display: block;        
+    }
+    .whyChooseImg{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hassleFreeProcessText{
+        margin-top: 5%;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding:0px 50px 0px 20px;
+    }
+    .excitingRewards{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

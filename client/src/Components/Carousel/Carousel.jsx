@@ -25,7 +25,9 @@ export const Carousel = () => {
             <div className='mainCarousel'>
                 <Slider {...settings}>
                 {carouselImg.map((data)=>(
-                    <img className='mainCarouselImg' src={data.img} alt="" srcset="" />
+                    <a className='clickableCarouselImg' href={data.url}>
+                        <img className='mainCarouselImg' src={data.img} alt="" srcset="" />
+                    </a>
                 ))}
                 </Slider>
             </div>
@@ -35,10 +37,10 @@ export const Carousel = () => {
 }
 
 
-    const carouselImg= [
-        {img:"/Images/SBI Bank.png"},
-        {img:"/Images/AXIS Bank.png"},
-        {img:"/Images/HDFC Bank.png"},
-        {img:"/Images/IDFC Bank.png"},
-        {img:"/Images/Kotak Bank.png"}
-    ]
+const carouselImg = [
+    { img: "/Images/SBI Bank.png", url: "https://www.sbi.co.in" },
+    { img: "/Images/AXIS Bank.png", url: "https://www.axisbank.com" },
+    { img: "/Images/HDFC Bank.png", url: "https://www.hdfcbank.com" },
+    { img: "/Images/IDFC Bank.png", url: "https://www.idfcfirstbank.com" },
+    { img: "/Images/Kotak Bank.png", url: "https://www.kotak.com" }
+];

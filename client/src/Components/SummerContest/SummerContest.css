@@ -1,0 +1,122 @@
+.summerContestMainDiv
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainSummerContest{
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+}
+.SummerContestImg{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+.ContestTextStep{
+    margin-top: 3%;
+}
+.mainContestText
+{
+    color: #a00015;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.summerContestText{
+    margin-top: 5%;
+}
+.mainContestText2{
+    margin-top: 3%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0A0B5F;
+    background-color:aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.mainContestTextStep{
+    margin-top: 3%;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #a00015;
+}
+.mainContestTextStep a{
+    color: #0A0B5F;
+    text-decoration: none;
+}
+
+
+
+/* **************RESPONSIVE******************** */
+
+@media screen and (max-width: 1100px){
+    .mainContestText{
+        font-size: 30px;
+    }
+    .mainContestText2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .mainContestText{
+        font-size: 25px;
+    }
+    .mainContestText2{
+        font-size: 20px;
+    }
+    .mainContestTextStep{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 780px){
+    .mainContestText{
+        font-size: 20px;
+    }
+    .mainContestText2{
+        font-size: 15px;
+    }
+    .mainContestTextStep{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 630px){
+    .mainContestText{
+        font-size: 15px;
+    }
+    .mainContestText2{
+        font-size: 12px;
+    }
+    .mainContestTextStep{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .mainContestText{
+        font-size: 10px;
+    }
+    .mainContestText2{
+        font-size: 10px;
+    }
+    .mainContestTextStep{
+        font-size: 9px;
+    }
+}
